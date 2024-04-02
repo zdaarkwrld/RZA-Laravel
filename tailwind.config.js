@@ -13,9 +13,12 @@ export default {
         extend: {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                therif: ['Therifv2', ...defaultTheme.fontFamily.sans],
             },
             colors: {
                 primary: "#652b53",
+                "primary-100": "#5E294D",
+                "primary-200": "#542445",
                 secondary: "#f7e5c8"
             }
         },
