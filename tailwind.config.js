@@ -19,7 +19,9 @@ export default {
                 primary: "#652b53",
                 "primary-100": "#5E294D",
                 "primary-200": "#542445",
-                secondary: "#f7e5c8"
+                secondary: "#f7e5c8",
+                "secondary-100": "#fce6c2",
+                "secondary-200": "#fce0b4"
             }
         },
     },

@@ -15,9 +15,35 @@ Route::get('/home', function () {
     return view('home');
 })->name('home');
 
+/* resources category routes */
 Route::get('/resources', function () {
     return view('resources');
 })->name('resources');
+
+Route::get('/resources/pinguins', function () {
+    return view('resource-pages/pinguins');
+})->name('pinguins');
+
+Route::get('/resources/giraffes', function () {
+    return view('resource-pages/giraffes');
+})->name('giraffes');
+
+Route::get('/resources/lions', function () {
+    return view('resource-pages/lions');
+})->name('lions');
+
+Route::get('/resources/lions', function () {
+    return view('resource-pages/lions');
+})->name('lions');
+
+Route::get('/resources/lions', function () {
+    return view('resource-pages/lions');
+})->name('lions');
+
+Route::get('/resources/lions', function () {
+    return view('resource-pages/lions');
+})->name('lions');
+
 
 
 Route::middleware('auth')->group(function () {
