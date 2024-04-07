@@ -3,7 +3,7 @@
         class="bg-[url(/public/images/hero-bg-image.jpg)] bg-center bg-cover overflow-hidden h-[600px]">
     </div>
 
-    <h1 class="font-therif text-center font-bold mt-12 text-7xl text-[#652b53]">OUR EVENTS</h1>
+    <h1 class="font-therif text-center font-bold mt-12 text-7xl text-[#652b53] ">OUR EVENTS</h1>
     <div class="flex flex-col md:flex-row gap-10 mx-auto md:px-10 w-96 md:w-full py-10 justify-center">
         <div class="bg-white  rounded-2xl overflow-hidden max-w-96">
             <div class="overflow-hidden h-96"><img

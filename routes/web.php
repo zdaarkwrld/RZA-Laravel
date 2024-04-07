@@ -32,19 +32,6 @@ Route::get('/resources/lions', function () {
     return view('resource-pages/lions');
 })->name('lions');
 
-Route::get('/resources/lions', function () {
-    return view('resource-pages/lions');
-})->name('lions');
-
-Route::get('/resources/lions', function () {
-    return view('resource-pages/lions');
-})->name('lions');
-
-Route::get('/resources/lions', function () {
-    return view('resource-pages/lions');
-})->name('lions');
-
-
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

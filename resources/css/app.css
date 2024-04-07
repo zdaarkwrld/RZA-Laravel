@@ -1,9 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
     font-family: 'Therifv2';
     src: url('../../../public/fonts/Therifv2.tff') format('truetype');
 
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
