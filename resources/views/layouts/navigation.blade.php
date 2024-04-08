@@ -19,6 +19,12 @@
                     <x-nav-link :href="route('resources')" :active="request()->routeIs('resources')">
                         Resources
                     </x-nav-link>
+                    <x-nav-link :href="route('contact-us')" :active="request()->routeIs('contact-us')">
+                        Contact Us
+                    </x-nav-link>
+                    <x-nav-link :href="route('booking')" :active="request()->routeIs('booking')">
+                        Book Now
+                    </x-nav-link>
                 </div>
             </div>
 
