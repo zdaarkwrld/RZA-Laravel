@@ -28,6 +28,10 @@ Route::get('/booking', function () {
     return view('booking');
 })->name('booking');
 
+Route::get('/feedback', function () {
+    return view('feedback');
+})->name('feedback');
+
 Route::get('/resources/pinguins', function () {
     return view('resource-pages/pinguins');
 })->name('pinguins');

@@ -1,6 +1,6 @@
 <x-app-layout>
     <div //style="border-bottom-right-radius: /50% /100px; //border-bottom-left-radius: /50% /100px;"
-        class="bg-[url(/public/images/hero-bg-image.jpg)] bg-center bg-cover overflow-hidden h-[600px]">
+        class="bg-[url(/public/images/giraffe.jpg)] bg-center bg-cover overflow-hidden h-[600px]">
     </div>
 
     <h1 class="font-therif text-center font-bold mt-12 text-7xl text-[#652b53] ">OUR EVENTS</h1>

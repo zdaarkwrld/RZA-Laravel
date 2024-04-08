@@ -148,7 +148,9 @@
                             type="submit">
                             Send Message
                         </button>
+
                     </div>
+
 
                 </div>
 
@@ -156,6 +158,21 @@
 
         </div>
     </div>
+
     </section>
+
+
+    <div class="fixed bottom-4 right-4">
+        <a href="{{ route('feedback') }}" class="bg-primary hover:bg-primary-200 text-white font-bold py-2 px-6 rounded">
+         Leave a Feedback
+        </a>
+      </div>
+        </div>
+    </div>
+
+
+
+
+
 
 </x-app-layout>
