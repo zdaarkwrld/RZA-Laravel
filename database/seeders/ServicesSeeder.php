@@ -12,6 +12,11 @@ class ServicesSeeder extends Seeder
      */
     public function run(): void
     {
-        //
+        Services::create([
+            'name' => 'Admin',
+            'email' => 'admin@admin.com',
+            'password' => Hash::make('admin'),
+            'admin' => '1'
+        ]);
     }
 }

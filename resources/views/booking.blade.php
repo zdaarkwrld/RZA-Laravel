@@ -1,14 +1,16 @@
 <x-app-layout>
-{{--     <div class="max-w-7xl mx-auto mt-10 bg-secondary shadow-2xl rounded-lg overflow-hidden mb-20">
+    <div class="max-w-7xl mx-auto mt-10 bg-secondary shadow-2xl rounded-lg overflow-hidden mb-20">
         <div class="text-2xl py-4 px-6 bg-primary text-white text-center font-bold uppercase border-primary">
             Book an Appointment
         </div>
-        <form class="py-4 px-6" action="" method="POST">
+        <form class="py-4 px-6" action="{{ route('booking.add') }}" method="POST">
+            @csrf
             <div class="mb-4">
                 <label class="block text-gray-700 font-bold mb-2" for="name">
                     Name
                 </label>
                 <input
+                name="name"
                     class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                     id="name" type="text" placeholder="Enter your name">
             </div>
@@ -17,6 +19,7 @@
                     Email
                 </label>
                 <input
+                name="email"
                     class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                     id="email" type="email" placeholder="Enter your email">
             </div>
@@ -25,6 +28,7 @@
                     Phone Number
                 </label>
                 <input
+                name="phone"
                     class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                     id="phone" type="tel" placeholder="Enter your phone number">
             </div>
@@ -33,6 +37,7 @@
                     Date
                 </label>
                 <input
+                name="date"
                     class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                     id="date" type="date" placeholder="Select a date">
             </div>
@@ -41,11 +46,12 @@
                     Time
                 </label>
                 <input
+                name="time"
                     class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                     id="time" type="time" placeholder="Select a time">
             </div>
             <div class="mb-4">
-                <label class="block text-gray-700 font-bold mb-2" for="service">
+            <label class="block text-gray-700 font-bold mb-2" for="service">
                     Service
                 </label>
                 <select
@@ -62,7 +68,7 @@
                 <label class="block text-gray-700 font-bold mb-2" for="message">
                     Message
                 </label>
-                <textarea
+                <textarea name="message"
                     class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                     id="message" rows="4" placeholder="Enter any additional information"></textarea>
             </div>
@@ -76,8 +82,8 @@
 
         </form>
     </div>
- --}}
- <div class="w-screen">
+
+{{--  <div class="w-screen">
     <div class="relative mx-auto mt-20 mb-20 max-w-screen-lg overflow-hidden rounded-t-xl bg-primary-100 py-32 text-center shadow-xl shadow-gray-300">
       <h1 class="mt-2 px-8 text-3xl font-bold text-secondary md:text-5xl">Book an appointment</h1>
       <p class="mt-6 text-lg text-secondary">Get an appointment with our experienced accountants</p>
@@ -142,7 +148,7 @@
       </div>
 
       <button class="mt-8 w-56 rounded-full border-8 border-primary bg-primary px-10 py-4 text-lg font-bold text-white transition hover:translate-y-1">Book Now</button>
-    </div>
+    </div> --}}
   </div>
   <script src="https://unpkg.com/flowbite@1.5.2/dist/datepicker.js"></script>
 
