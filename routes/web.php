@@ -25,6 +25,10 @@ Route::get('/contact-us', function () {
     return view('contact-us');
 })->name('contact-us');
 
+Route::get('/faq-page', function () {
+    return view('faq-page');
+})->name('faq-page');
+
 Route::get('/booking', function () {
     return view('booking');
 })->name('booking');

@@ -19,6 +19,9 @@
                     <x-nav-link :href="route('resources')" :active="request()->routeIs('resources')">
                         Resources
                     </x-nav-link>
+                    <x-nav-link :href="route('faq-page')" :active="request()->routeIs('faq-page')">
+                        FAQ
+                    </x-nav-link>
                     <x-nav-link :href="route('contact-us')" :active="request()->routeIs('contact-us')">
                         Contact Us
                     </x-nav-link>

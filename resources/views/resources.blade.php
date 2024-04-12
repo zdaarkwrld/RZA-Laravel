@@ -1,5 +1,5 @@
 <x-app-layout>
-    {{-- bacground image --}}
+ {{--    {{-- bacground image --}}
     <div "
         class="bg-[url(/public/images/lion.jpg)] bg-center bg-cover overflow-hidden h-[600px]">
     </div>
@@ -7,7 +7,7 @@
     {{-- Page Header--}}
     <h1 class="font-therif text-center font-bold mt-12 text-7xl text-[#652b53]">RESOURCES</h1>
 
-    <h3 class="font-therif text-center font-bold mt-6 text-3xl text-[#652b53]" >Cool Facts About Animals</h3>
+    <h3 class="font-therif text-center font-bold mt-6 text-3xl text-[#652b53]" >Discover Interesting Facts Of Our Animal Friends</h3>
 
 <!-- Fun Facts obout animals-->
     <div class="flex flex-col md:flex-row gap-10 mx-auto md:px-10 w-96 md:w-full py-10 justify-center">
@@ -48,6 +48,6 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}á
 
 </x-app-layout>
