@@ -109,9 +109,9 @@
           <h2 class="font-black text-black text-center text-3xl leading-none uppercase  mx-auto mb-12">What Listeners
             Are Saying</h2>
           <div class="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 relative">
-            <div class="bg-gray-200 rounded-lg p-8 text-center md:w-1/3">
-              <p class="font-bold uppercase">John Doe</p>
-              <p class="text-xl font-light italic text-gray-700">This podcast is amazing! The storytelling and production
+            <div class="bg-primary rounded-lg p-8 text-center md:w-1/3">
+              <p class="font-bold uppercase text-white">John Doe</p>
+              <p class="text-xl font-light italic text-secondary">This podcast is amazing! The storytelling and production
                 quality are top-notch. I can't wait for the next episode!</p>
               <div class="flex items-center justify-center space-x-2 mt-4">
                 <svg class="text-yellow-500 w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
@@ -134,9 +134,9 @@
                 </svg>
               </div>
             </div>
-            <div class="bg-gray-200 rounded-lg p-8 text-center md:w-1/3">
-              <p class="font-bold uppercase">Jane Smith</p>
-              <p class="text-xl font-light italic text-gray-700">This podcast kept me on the edge of my seat. It's a
+            <div class="bg-primary rounded-lg p-8 text-center md:w-1/3">
+              <p class="font-bold uppercase text-white">Jane Smith</p>
+              <p class="text-xl font-light italic text-secondary">This podcast kept me on the edge of my seat. It's a
                 must-listen for true crime enthusiasts!</p>
               <div class="flex items-center justify-center space-x-2 mt-4">
                 <svg class="text-yellow-500 w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
@@ -159,9 +159,9 @@
                 </svg>
               </div>
             </div>
-            <div class="bg-gray-200 rounded-lg p-8 text-center md:w-1/3">
-              <p class="font-bold uppercase">Emily Johnson</p>
-              <p class="text-xl font-light italic text-gray-700">I can't get enough of this podcast! The host's voice is so
+            <div class="bg-primary rounded-lg p-8 text-center md:w-1/3">
+              <p class="font-bold uppercase text-white">Emily Johnson</p>
+              <p class="text-xl font-light italic text-secondary">I can't get enough of this podcast! The host's voice is so
                 soothing, and the stories are gripping. Highly recommend!</p>
               <div class="flex items-center justify-center space-x-2 mt-4">
                 <svg class="text-yellow-500 w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
