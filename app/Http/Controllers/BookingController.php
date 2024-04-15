@@ -44,6 +44,7 @@ class BookingController extends Controller
         $booking->date = $request->date;
         $booking->time = $request->time;
         $booking->service = $request->service;
+        $booking->quantity = $request->quantity;
         $booking->message = $request->message;
         $booking->total_cost = $request->total_cost;
         return redirect()->back()->with('success', 'Booking was successfull');

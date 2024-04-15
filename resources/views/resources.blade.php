@@ -48,6 +48,16 @@
           </div>
         </div>
       </div>
-    </div> --}}á
+    </div>
+
+    <h1 class="text-center font-bold text-4xl md:text-6xl lg:text-7xl pb-4 font-therifleman text-[#652b53]">Our Zoo Map</h1>
+<h3 class="font-therif text-center font-bold text-3xl text-[#652b53]">Discover Our Zoo Through This Map</h3>
+<div class="flex justify-center items-center">
+  <div class="max-w-6xl w-full p-2 m-2">
+    <a href="https://www.batterseaparkzoo.co.uk/media/pnughh1c/screenshot-2023-08-01-at-151400.png" target="_blank">
+      <img src="https://www.batterseaparkzoo.co.uk/media/pnughh1c/screenshot-2023-08-01-at-151400.png?width=1600&rnd=133355464998600000" alt="Battersea Park Zoo" class="w-full h-auto object-contain mb-2" />
+    </a>
+  </div>
+</div>
 
 </x-app-layout>

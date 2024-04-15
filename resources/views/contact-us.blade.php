@@ -159,9 +159,7 @@
         </div>
     </div>
 
-    </section>
-    <div class="bg-[url('/public/images/zoo-map.png')]"></div>
-    <img src="{{ asset('public/images/zoo-map.png') }}" alt="tag">
+
 
     <div class="fixed bottom-4 right-4">
         <a href="{{ route('feedback') }}" class="bg-primary hover:bg-primary-200 text-white font-bold py-2 px-6 rounded">
