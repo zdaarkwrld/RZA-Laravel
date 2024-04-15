@@ -1,7 +1,10 @@
 <x-app-layout>
- 
+
     <div class="bg-secondary min-h-screen p-4">
         <div class="container mx-auto pt-12 pb-20">
+
+
+
             <h1 class="text-4xl font-bold text-gray-800 text-center mb-8">
                 Discover some facts about PINGUINS
             </h1>
@@ -50,6 +53,12 @@
             </div>
 
             </div>
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4 mt-10">
+                <img class="h-auto max-w-lg transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" src="https://t4.ftcdn.net/jpg/01/06/59/83/360_F_106598350_ZsdsUvM4Ht7bGDXTHANxIh3k2VGK6uWV.jpg" alt="image description">
+                <img class="h-auto max-w-lg transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" src="https://eclipsetravel.com.au/wp-content/uploads/2020/05/nz-macquarie-island-penguins-540x360.jpg" alt="image description">
+                <img class="h-auto max-w-lg transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" src="https://t3.ftcdn.net/jpg/06/10/69/66/360_F_610696656_Sr0BdEtxXGbMq7EZJXaIZ2EyHqd5lENv.jpg" alt="image description">
+              </div>
         </div>
     </div>
+
 </x-app-layout>

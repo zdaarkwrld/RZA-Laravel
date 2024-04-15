@@ -1,10 +1,34 @@
 <x-app-layout>
-    <div class="bg-[url('/public/images/giraffe.jpg')] bg-center bg-cover overflow-hidden h-[300px] sm:h-[400px] md:h-[500px]"></div>
+
+        <div class="bg-[url('/public/images/giraffe.jpg')] bg-center bg-cover overflow-hidden h-[300px] sm:h-[400px] md:h-[500px] relative">
+            <div class="absolute top-5 left-3 p-4 transition-all duration-1000 ease-in-out transform translate-y-[-100%] opacity-0 animate-fade-in">
+                <h2 class="text-white text-5xl font-bold font-therifleman">Welcome to  <br>Riget Zoo Adventures</h2>
+            </div>
+        </div>
+
+
+    <style>
+        .animate-fade-in {
+            animation: fade-in 1.5s ease-in-out forwards;
+        }
+
+        @keyframes fade-in {
+            0% {
+                transform: translateY(-100%);
+                opacity: 0;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+
 
 
     <div class="bg-secondary text-gray-800 py-12 md:py-12">
         <div class="container mx-auto px-4">
-            <h1 class="font-therif text-center font-bold text-4xl md:text-6xl lg:text-7xl pb-6 text-[#652b53]">UPDATED EVENTS</h1>
+            <h1 class=" text-center font-bold text-4xl md:text-6xl lg:text-7xl pb-6 font-therifleman  text-[#652b53]">UPDATED EVENTS</h1>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 md:mt-12">
                 <div class="bg-white shadow-lg rounded-lg overflow-hidden">
@@ -39,7 +63,7 @@
         </div>
     </div>
 
-    <section class="relative z-40 overflow-hidden bg-primary py-12 md:py-16 lg:py-24 px-4 md:px-8 mb-52">
+    <section class="relative z-40 overflow-hidden bg-primary py-12 md:py-16 lg:py-24 px-4 md:px-8 ">
         <div class="container mx-auto">
             <div class="-mx-4 flex flex-wrap items-center">
                 <div class="w-full px-4 lg:w-1/2">
@@ -104,15 +128,14 @@
         </div>
     </section>
 
-    <section class="bg-secondary-200 px-4 py-4 md:py-24">
+    <section class=" px-4 py-4 md:py-24">
         <div class="max-w-screen-xl mx-auto">
           <h2 class="font-black text-black text-center text-3xl leading-none uppercase  mx-auto mb-12">What Listeners
             Are Saying</h2>
           <div class="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 relative">
             <div class="bg-primary rounded-lg p-8 text-center md:w-1/3">
               <p class="font-bold uppercase text-white">John Doe</p>
-              <p class="text-xl font-light italic text-secondary">This podcast is amazing! The storytelling and production
-                quality are top-notch. I can't wait for the next episode!</p>
+              <p class="text-xl font-light italic text-secondary">We had an amazing day at the zoo! The exhibits were well-designed and allowed us to get up close and personal with the animals. The gorilla exhibit was our favorite – we could have spent hours watching their fascinating behavior. Highly recommend this zoo for a fun and educational family outing.!</p>
               <div class="flex items-center justify-center space-x-2 mt-4">
                 <svg class="text-yellow-500 w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
                   fill="currentColor" stroke="currentColor">
@@ -136,8 +159,7 @@
             </div>
             <div class="bg-primary rounded-lg p-8 text-center md:w-1/3">
               <p class="font-bold uppercase text-white">Jane Smith</p>
-              <p class="text-xl font-light italic text-secondary">This podcast kept me on the edge of my seat. It's a
-                must-listen for true crime enthusiasts!</p>
+              <p class="text-xl font-light italic text-secondary">This zoo is a must-visit for anyone who loves animals! The staff was incredibly knowledgeable and passionate about the animals they care for. We attended a couple of the keeper talks, which were both informative and entertaining. The zoo grounds are beautifully maintained, and there are plenty of shaded areas to take a break. We'll definitely be back!!</p>
               <div class="flex items-center justify-center space-x-2 mt-4">
                 <svg class="text-yellow-500 w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
                   fill="currentColor" stroke="currentColor">
@@ -161,8 +183,7 @@
             </div>
             <div class="bg-primary rounded-lg p-8 text-center md:w-1/3">
               <p class="font-bold uppercase text-white">Emily Johnson</p>
-              <p class="text-xl font-light italic text-secondary">I can't get enough of this podcast! The host's voice is so
-                soothing, and the stories are gripping. Highly recommend!</p>
+              <p class="text-xl font-light italic text-secondary">We had a fantastic time at the zoo! The petting zoo was a hit with our little ones, and they loved getting up close and personal with the friendly goats and sheep. The carousel and train rides were also a lot of fun. The zoo did a great job of catering to families with young children while still providing an excellent experience for everyone.</p>
               <div class="flex items-center justify-center space-x-2 mt-4">
                 <svg class="text-yellow-500 w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
                   fill="currentColor" stroke="currentColor">

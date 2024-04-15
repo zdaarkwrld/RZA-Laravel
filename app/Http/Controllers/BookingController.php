@@ -30,7 +30,7 @@ class BookingController extends Controller
         if ($request->filled('service') && !is_string($request->service)) {
             return redirect()->back()->with('error', 'Invalid Input');
         }
-        if ($request->filled('message') && !is_string($request->message)) {
+        if ($request->filled('quantity') && !is_string($request->message)) {
             return redirect()->back()->with('error', 'Invalid Input');
         }
         if ($request->filled('message') && !is_string($request->message)) {
