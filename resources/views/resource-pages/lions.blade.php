@@ -13,42 +13,43 @@
             </p>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div class="bg-white rounded-lg shadow-lg p-8">
-                    <h2 class="text-xl font-bold text-gray-800 mb-4">Penguins evolved to fly underwater</h2>
+                    <h2 class="text-xl font-bold text-gray-800 mb-4">Where do lions live?</h2>
                     <p class="text-gray-700">
-                        Most birds have hollow, air-filled bones to help them stay light for flight. Penguins adapted with solid bones instead. This helps them swim because solid bones reduce buoyancy—the tendency to float.
+                        African lions are mostly found in sub-Saharan Africa. They used to be found all over Africa but now they have mostly disappeared from North Africa and are at risk of extinction in West Africa. Lions live in savannahs and grasslands, where some cover and plenty of water can be found.
+
                     </p>
                 </div>
                 <div class="bg-white rounded-lg shadow-lg p-8">
-                    <h2 class="text-xl font-bold text-gray-800 mb-4">Contrary to many popular holiday cartoons, you’ll never see penguins and polar bears together in the wild</h2>
+                    <h2 class="text-xl font-bold text-gray-800 mb-4">Can you adopt a lion?</h2>
                     <p class="text-gray-700">
-                        That’s because penguins live south of the equator while polar bears north of the equator in Arctic!
+                        If lions are your favourite animal you can adopt a lion for a one off payment that includes a cuddly lion toy, an adoption certificate, a lion fact sheet and the name of the adopter displayed at the lion enclosure.
                     </p>
                 </div>
                 <div class="bg-white rounded-lg shadow-lg p-8">
-                    <h2 class="text-xl font-bold text-gray-800 mb-4">Penguin feet are adapted to walk long distances</h2>
+                    <h2 class="text-xl font-bold text-gray-800 mb-4"> What do lions eat?</h2>
                     <p class="text-gray-700">
-                        Some species of penguins can march up to about 60 miles across sea ice to get to their breeding grounds. Penguin feet are also adapted to help the birds steer while swimming. They use their feet like rudders, angling them to help control direction.
+                        Lions hunt for food every few days. They will feed from their kill and then rest until they hunt again. We follow this pattern in zoos, as our lions have two “starve” days out of seven. They usually kill medium sized mammals, such as zebra, deer and wildebeest. They often eat animals which have been killed by another hunter, such as hyenas.
                     </p>
                 </div>
 
 
 {{-- Bottom Row --}}
             <div class="bg-white rounded-lg shadow-lg p-8">
-                <h2 class="text-xl font-bold text-gray-800 mb-4">Penguin feet are adapted to walk long distances</h2>
+                <h2 class="text-xl font-bold text-gray-800 mb-4">What noise do lions make?</h2>
                 <p class="text-gray-700">
-                    Some species of penguins can march up to about 60 miles across sea ice to get to their breeding grounds. Penguin feet are also adapted to help the birds steer while swimming. They use their feet like rudders, angling them to help control direction.
+                    Both male and female lions roar. They usually start off with a few long, deep roars followed by shorter, faster ones. Lions also make other noises. They meow, hiss and snarl, like domestic cats, but louder.
                 </p>
             </div>
             <div class="bg-white rounded-lg shadow-lg p-8">
-                <h2 class="text-xl font-bold text-gray-800 mb-4">Penguin feet are adapted to walk long distances</h2>
+                <h2 class="text-xl font-bold text-gray-800 mb-4">Do all lions look the same?</h2>
                 <p class="text-gray-700">
-                    Some species of penguins can march up to about 60 miles across sea ice to get to their breeding grounds. Penguin feet are also adapted to help the birds steer while swimming. They use their feet like rudders, angling them to help control direction.
+                    Male lions are much bigger than females and they have large manes, or hair, which covers their head and neck and stretches underneath to their belly. Lion cubs have light spots on their fur when they are born. These fade when they grow up and they help camouflage, or hide, them when they’re young.
                 </p>
             </div>
             <div class="bg-white rounded-lg shadow-lg p-8">
-                <h2 class="text-xl font-bold text-gray-800 mb-4">Penguin feet are adapted to walk long distances</h2>
+                <h2 class="text-xl font-bold text-gray-800 mb-4">How long do lions sleep for? </h2>
                 <p class="text-gray-700">
-                    Some species of penguins can march up to about 60 miles across sea ice to get to their breeding grounds. Penguin feet are also adapted to help the birds steer while swimming. They use their feet like rudders, angling them to help control direction.
+                    Lions are the laziest of all the big cats, and can sleep for 16-20 hours each day.
                 </p>
             </div>
 

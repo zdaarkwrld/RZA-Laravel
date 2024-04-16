@@ -13,42 +13,42 @@
             </p>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div class="bg-white rounded-lg shadow-lg p-8">
-                    <h2 class="text-xl font-bold text-gray-800 mb-4">Penguins evolved to fly underwater</h2>
+                    <h2 class="text-xl font-bold text-gray-800 mb-4">How do giraffes give birth?</h2>
                     <p class="text-gray-700">
-                        Most birds have hollow, air-filled bones to help them stay light for flight. Penguins adapted with solid bones instead. This helps them swim because solid bones reduce buoyancy—the tendency to float.
+                        Giraffes give birth while standing up, and a newborn giraffe can fall up to 1.8 meters (6 feet) to the ground during the birthing process.
                     </p>
                 </div>
                 <div class="bg-white rounded-lg shadow-lg p-8">
-                    <h2 class="text-xl font-bold text-gray-800 mb-4">Contrary to many popular holiday cartoons, you’ll never see penguins and polar bears together in the wild</h2>
+                    <h2 class="text-xl font-bold text-gray-800 mb-4">How do giraffes defend themselves? </h2>
                     <p class="text-gray-700">
-                        That’s because penguins live south of the equator while polar bears north of the equator in Arctic!
+                        Giraffes use their long necks and powerful kicks to defend themselves from predators, such as lions and hyenas.
                     </p>
                 </div>
                 <div class="bg-white rounded-lg shadow-lg p-8">
-                    <h2 class="text-xl font-bold text-gray-800 mb-4">Penguin feet are adapted to walk long distances</h2>
+                    <h2 class="text-xl font-bold text-gray-800 mb-4">What is the collective name for a group of giraffes?</h2>
                     <p class="text-gray-700">
-                        Some species of penguins can march up to about 60 miles across sea ice to get to their breeding grounds. Penguin feet are also adapted to help the birds steer while swimming. They use their feet like rudders, angling them to help control direction.
+                        A group of giraffes is called a tower, a herd, or a dazzle.
                     </p>
                 </div>
 
 
 {{-- Bottom Row --}}
             <div class="bg-white rounded-lg shadow-lg p-8">
-                <h2 class="text-xl font-bold text-gray-800 mb-4">Penguin feet are adapted to walk long distances</h2>
+                <h2 class="text-xl font-bold text-gray-800 mb-4">How long do giraffes live? </h2>
                 <p class="text-gray-700">
-                    Some species of penguins can march up to about 60 miles across sea ice to get to their breeding grounds. Penguin feet are also adapted to help the birds steer while swimming. They use their feet like rudders, angling them to help control direction.
+                    In the wild, giraffes can live for 15 to 25 years, while in captivity, they can live up to 30 years.
                 </p>
             </div>
             <div class="bg-white rounded-lg shadow-lg p-8">
-                <h2 class="text-xl font-bold text-gray-800 mb-4">Penguin feet are adapted to walk long distances</h2>
+                <h2 class="text-xl font-bold text-gray-800 mb-4">How do giraffes communicate? </h2>
                 <p class="text-gray-700">
-                    Some species of penguins can march up to about 60 miles across sea ice to get to their breeding grounds. Penguin feet are also adapted to help the birds steer while swimming. They use their feet like rudders, angling them to help control direction.
+                    Giraffes use a variety of vocalizations, such as grunts, snorts, and hisses, as well as body language to communicate with one another.
                 </p>
             </div>
             <div class="bg-white rounded-lg shadow-lg p-8">
-                <h2 class="text-xl font-bold text-gray-800 mb-4">Penguin feet are adapted to walk long distances</h2>
+                <h2 class="text-xl font-bold text-gray-800 mb-4">What do giraffes eat?</h2>
                 <p class="text-gray-700">
-                    Some species of penguins can march up to about 60 miles across sea ice to get to their breeding grounds. Penguin feet are also adapted to help the birds steer while swimming. They use their feet like rudders, angling them to help control direction.
+                    Giraffes are herbivores and primarily eat leaves, shoots, and fruits from trees and bushes.
                 </p>
             </div>
 

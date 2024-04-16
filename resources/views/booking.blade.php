@@ -9,8 +9,7 @@
                 <label class="block text-gray-700 font-bold mb-2" for="name">
                     Name
                 </label>
-                <input
-                name="name"
+                <input name="name"
                     class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                     id="name" type="text" placeholder="Enter your name">
             </div>
@@ -18,8 +17,7 @@
                 <label class="block text-gray-700 font-bold mb-2" for="email">
                     Email
                 </label>
-                <input
-                name="email"
+                <input name="email"
                     class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                     id="email" type="email" placeholder="Enter your email">
             </div>
@@ -27,8 +25,7 @@
                 <label class="block text-gray-700 font-bold mb-2" for="phone">
                     Phone Number
                 </label>
-                <input
-                name="phone"
+                <input name="phone"
                     class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                     id="phone" type="tel" placeholder="Enter your phone number">
             </div>
@@ -36,8 +33,7 @@
                 <label class="block text-gray-700 font-bold mb-2" for="date">
                     Date
                 </label>
-                <input
-                name="date"
+                <input name="date"
                     class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                     id="date" type="date" placeholder="Select a date">
             </div>
@@ -45,13 +41,12 @@
                 <label class="block text-gray-700 font-bold mb-2" for="time">
                     Time
                 </label>
-                <input
-                name="time"
+                <input name="time"
                     class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                     id="time" type="time" placeholder="Select a time">
             </div>
             <div class="mb-4">
-            <label class="block text-gray-700 font-bold mb-2" for="service">
+                <label class="block text-gray-700 font-bold mb-2" for="service">
                     Service
                 </label>
                 <select
