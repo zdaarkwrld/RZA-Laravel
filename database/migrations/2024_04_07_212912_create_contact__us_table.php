@@ -17,8 +17,6 @@ return new class extends Migration
             $table->string('email');
             $table->string('subject');
             $table->text('message');
-            $table->integer('created_at');
-            $table->integer('updated_at');
             $table->timestamps();
         });
     }

@@ -17,8 +17,6 @@ return new class extends Migration
             $table->string('description');
             $table->integer('points_required');
             $table->string('reward');
-            $table->integer('created_at');
-            $table->integer('updated_at');
             $table->timestamps();
         });
     }

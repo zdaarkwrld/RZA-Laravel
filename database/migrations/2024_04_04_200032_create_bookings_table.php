@@ -13,20 +13,19 @@ return new class extends Migration
     {
         Schema::create('bookings', function (Blueprint $table) {
             $table->id();
-            $table->integer('user_id');
-            $table->integer('service_id');
-            $table->integer('hotel_id');
+            $table->foreignId('user_id');
+            $table->foreignId('service_id');
+            $table->foreignId('hotel_id');
             $table->integer('date');
             $table->integer('quantity');
             $table->integer('total_cost');
             $table->integer('loyalty_points_earned');
             $table->string('status');
-            $table->integer('created_at');
-            $table->integer('updated_at');
             $table->timestamps();
         });
     }
 
+    
     /**
      * Reverse the migrations.
      */

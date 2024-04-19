@@ -8,33 +8,33 @@ use App\Models\Bookings;
 class BookingController extends Controller
 {
 
-    public function add(AddBookingsRequest $request)
+    public function add(Request $request)
     {
         // Create a new booking
 
         if ($request->filled('name') && !is_string($request->name)) {
-            return redirect()->back()->with('error', 'Invalid Input');
+            return redirect()->back()->with('error', 'Invalid Input for Name');
         }
-        if ($request->filled('email') && !is_string($request->email)) {
-            return redirect()->back()->with('error', 'Invalid Input');
+        if ($request->filled('email') && !filter_var($request->email, FILTER_VALIDATE_EMAIL)) {
+            return redirect()->back()->with('error', 'Invalid Input for Email');
         }
-        if ($request->filled('phone ') && !is_integer($request->phone)) {
-            return redirect()->back()->with('error', 'Invalid Input');
+        if ($request->filled('phone') && !is_numeric($request->phone)) {
+            return redirect()->back()->with('error', 'Invalid Input for Phone');
         }
-        if ($request->filled('date') && !is_integer($request->date)) {
-            return redirect()->back()->with('error', 'Invalid Input');
+        if ($request->filled('date') && !strtotime($request->date)) {
+            return redirect()->back()->with('error', 'Invalid Input for Date');
         }
-        if ($request->filled('time') && !is_integer($request->time)) {
-            return redirect()->back()->with('error', 'Invalid Input');
+        if ($request->filled('time') && !strtotime($request->time)) {
+            return redirect()->back()->with('error', 'Invalid Input for Time');
         }
         if ($request->filled('service') && !is_string($request->service)) {
-            return redirect()->back()->with('error', 'Invalid Input');
+            return redirect()->back()->with('error', 'Invalid Input for Service');
         }
-        if ($request->filled('quantity') && !is_string($request->message)) {
-            return redirect()->back()->with('error', 'Invalid Input');
+        if ($request->filled('quantity') && !is_numeric($request->quantity)) {
+            return redirect()->back()->with('error', 'Invalid Input for Quantity');
         }
         if ($request->filled('message') && !is_string($request->message)) {
-            return redirect()->back()->with('error', 'Invalid Input');
+            return redirect()->back()->with('error', 'Invalid Input for Message');
         }
 
         $booking = new Bookings;
@@ -49,6 +49,6 @@ class BookingController extends Controller
         $booking->total_cost = $request->total_cost;
         return redirect()->back()->with('success', 'Booking was successfull');
     }
-    }
+
 }
 

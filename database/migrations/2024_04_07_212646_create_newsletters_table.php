@@ -14,8 +14,6 @@ return new class extends Migration
         Schema::create('newsletters', function (Blueprint $table) {
             $table->id();
             $table->string('email');
-            $table->integer('created_at');
-            $table->integer('updated_at');
             $table->integer('comments');
             $table->timestamps();
         });

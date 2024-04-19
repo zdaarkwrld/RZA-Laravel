@@ -21,17 +21,13 @@ Route::get('/resources', function () {
     return view('resources');
 })->name('resources');
 
-Route::get('/contact-us', function () {
-    return view('contact-us');
-})->name('contact-us');
+
 
 Route::get('/faq-page', function () {
     return view('faq-page');
 })->name('faq-page');
 
-Route::get('/booking', function () {
-    return view('booking');
-})->name('booking');
+
 
 Route::get('/feedback', function () {
     return view('feedback');
@@ -56,6 +52,14 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::post('/booking/add/', [BookingController::class, 'add'])->name('booking.add');
+
+    Route::get('/contact-us', function () {
+        return view('contact-us');
+    })->name('contact-us');
+
+    Route::get('/booking', function () {
+        return view('booking');
+    })->name('booking');
 });
 
 require __DIR__.'/auth.php';

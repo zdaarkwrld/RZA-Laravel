@@ -1,10 +1,10 @@
 <x-app-layout>
- {{--    {{-- bacground image --}}
+    {{--    {{-- bacground image --}}
     <div "
         class="bg-[url(/public/images/lion.jpg)] bg-center bg-cover overflow-hidden h-[600px]">
     </div>
 
-    {{-- Page Header--}}
+    {{-- Page Header --}}
     <h1 class="font-therif text-center font-bold mt-12 text-7xl text-[#652b53]">RESOURCES</h1>
 
     <h3 class="font-therif text-center font-bold mt-6 text-3xl text-[#652b53]" >Discover Interesting Facts Of Our Animal Friends</h3>
@@ -59,5 +59,34 @@
     </a>
   </div>
 </div>
+
+
+
+<div class="container mx-auto">
+    <div class="px-2 py-2 md:py-18 bg-primary relative overflow-hidden flex flex-col">
+        <div class="px-4 py-4 md:py-24 bg-primary relative overflow-hidden flex flex-col items-start">
+            <div class="flex justify-between w-full">
+                <img id="fade-in-image"
+                    class="image-embed-item rounded-full opacity-0 transition-opacity duration-1000 transform -translate-x-10"
+                    src="https://www.calgaryzoo.com/wp-content/uploads/2023/09/Daughter.YYC_.Zoo_.P.Bears_.01090.1.FF16-1024x768.jpg"
+                    width="800" height="800" loading="lazy" alt="">
+                <!-- Second image -->
+
+
+            <div class="ml-24 mt-8">
+                <h2 class="text-5xl font-extrabold text-secondary mb-0 py-7">
+                    Animals
+                </h2>
+                <p class="mb-0 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+                    auctor, est ac convallis viverra, enim nisl lacinia eros, a dictum risus mi eget risus. In hac
+                    habitasse
+                    platea dictumst. Vivamus et velit id velit malesuada pretium. Nulla facilisi. Nullam et nulla metus.
+                    Sed
+                    tincidunt nisl et arcu congue ultricies.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 </x-app-layout>
