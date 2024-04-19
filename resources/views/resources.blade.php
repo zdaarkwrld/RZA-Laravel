@@ -82,7 +82,7 @@
                     habitasse
                     platea dictumst. Vivamus et velit id velit malesuada pretium. Nulla facilisi. Nullam et nulla metus.
                     Sed
-                    tincidunt nisl et arcu congue ultricies.</p>
+                    tincidunt nisl el arcu congue ultricies.</p>
             </div>
         </div>
     </div>
