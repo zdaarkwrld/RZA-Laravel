@@ -31,7 +31,7 @@
 
     <div class="bg-secondary text-gray-800 py-12 md:py-12">
         <div class="container mx-auto px-4">
-            <h1 class=" text-center font-bold text-4xl md:text-6xl lg:text-7xl pb-6 font-therifleman  text-[#652b53]">
+            <h1 class=" text-center font-bold text-4xl md:text-6xl lg:text-7xl pb-6 font-therifleman  text-primary">
                 UPDATED EVENTS</h1>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 md:mt-12">
@@ -78,7 +78,7 @@
 
 
     <h1
-        class=" text-center font-bold text-4xl md:text-6xl lg:text-7xl pb-6 pt-10 font-therifleman bg-secondary text-[#652b53]">
+        class=" text-center font-bold text-4xl md:text-6xl lg:text-7xl pb-6 pt-10 font-therifleman bg-secondary text-primary">
         Our Photo Library</h1>
 
     <div class="flex flex-wrap justify-center bg-secondary">
@@ -114,7 +114,9 @@
 
     </div>
 
+<div class="pb-20 bg-secondary">
 
+</div>
 
 
     <section class="relative z-40 overflow-hidden bg-primary py-12 md:py-16 lg:py-24 px-4 md:px-8 ">
@@ -123,7 +125,7 @@
                 <div class="w-full px-4 lg:w-1/2">
                     <div class="text-center lg:text-left">
                         <div class="mb-10 lg:mb-0">
-                            <h1 class="mt-0 mb-3 text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-white">
+                            <h1 class="mt-0 mb-3 text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-secondary">
                                 You come here often? Perfect, Contact Us to get a loyalty offer to reduce your ticket
                                 prices
                             </h1>
@@ -147,9 +149,8 @@
                 </defs>
             </svg>
         </div>
-        <div class="absolute top-0 right-0 -z-10">
-            <svg width="324" height="250" viewBox="0 0 324 220" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
+        <div class="absolute top-0 right-0 -z-10 ">
+            <svg width="324" height="250" viewBox="0 0 324 220" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path opacity="0.05" d="M203 -28.5L4.87819e-05 250.5L881.5 250.5L881.5 -28.5002L203 -28.5Z"
                     fill="url(#paint0_linear_971_6911)"></path>
                 <defs>
@@ -161,9 +162,8 @@
                 </defs>
             </svg>
         </div>
-        <div class="absolute top-4 left-4 -z-10">
-            <svg width="43" height="56" viewBox="0 0 43 56" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
+        <div class="absolute top-4 left-4 -z-10  ">
+            <svg width="43" height="56" viewBox="0 0 43 56" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g opacity="0.5">
                     <circle cx="40.9984" cy="1.49626" r="1.49626" transform="rotate(90 40.9984 1.49626)"
                         fill="white"></circle>
@@ -209,14 +209,30 @@
             </svg>
         </div>
     </section>
+    <div class="bg-secondary py-10">
 
-    
+    </div>
+
+    <div class="flex flex-col items-center justify-center bg-primary py-16 ">
+        <div class="relative">
+            <img src="https://www.calgaryzoo.com/wp-content/uploads/2023/09/Daughter.YYC_.Zoo_.P.Bears_.01090.1.FF16-1024x768.jpg"
+                alt="Red Panda" class="rounded-full w-64 h-64">
+        </div>
+        <h1 class="text-4xl font-bold text-secondary mt-8">Riget Zoo Adventures</h1>
+        <p class="text-lg text-white mt-4 max-w-2xl text-center">
+            Riget Zoo Adventures is a fascinating place to explore with 15 acres of open plan zoo. It's home to over 500
+            animals from all over the world, including endangered species.
+        </p>
+        <button class="bg-secondary-200 hover:bg-secondary text-primary font-bold py-2 px-4 rounded mt-8">
+            SEE ANIMALS
+        </button>
+    </div>
 
 
 
-    <section class=" px-4 py-4 md:py-24 bg-secondary">
+    <section class=" px-4 py-4 md:py-24 bg-secondary ">
         <div class="max-w-screen-xl mx-auto">
-            <h2 class="font-black text-black text-center text-3xl leading-none uppercase  mx-auto mb-12">What
+            <h2 class="font-black text-primary text-center text-3xl leading-none uppercase  mx-auto mb-12">What
                 Listeners
                 Are Saying</h2>
             <div class="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 relative">

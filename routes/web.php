@@ -44,6 +44,15 @@ Route::get('/resources/giraffes', function () {
 Route::get('/resources/lions', function () {
     return view('resource-pages/lions');
 })->name('lions');
+Route::get('/resources/panda', function () {
+    return view('resource-pages/panda');
+})->name('panda');
+Route::get('/resources/elephant', function () {
+    return view('resource-pages/elephant');
+})->name('elephant');
+Route::get('/resources/zebra', function () {
+    return view('resource-pages/zebra');
+})->name('zebra');
 
 
 
