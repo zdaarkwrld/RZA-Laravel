@@ -53,10 +53,9 @@
                     class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                     id="service" name="service">
                     <option value="">Select a service</option>
-                    <option value="haircut">Haircut</option>
-                    <option value="coloring">Coloring</option>
-                    <option value="styling">Styling</option>
-                    <option value="facial">Facial</option>
+                    <option value="haircut">Safari style wildlife zoo</option>
+                    <option value="coloring">Educational Visit</option>
+                    <option value="styling">An on site hotel</option>
                 </select>
             </div>
             <div class="mb-4">
