@@ -1,75 +1,77 @@
 <x-app-layout>
-    <div class="bg-secondary min-h-screen p-4">
-        <div class="container mx-auto pt-12 pb-20">
-
-            <h1 class="text-4xl font-bold text-gray-800 text-center mb-8">
-                Discover some facts about ELEPHANTS
-            </h1>
-            <p class="text-gray-700 text-lg text-center mb-12">
-                Learn fascinating insights about these magnificent giants, known for their intelligence and strength.
+    <div class="bg-primary-200 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 class="text-3xl font-bold text-secondary mb-4 ">Elephants</h1>
+            <p class="text-gray-300 text-2xl">
+                Elephants are the largest land animals on Earth, known for their long trunks, large ears, and tusks.
             </p>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-white rounded-lg shadow-lg p-8">
-                    <h2 class="text-xl font-bold text-gray-800 mb-4">Elephants have incredible memories</h2>
-                    <p class="text-gray-700">
-                        Elephants are renowned for their exceptional long-term memory, which helps them remember
-                        migration routes, watering holes, and even individual humans they have encountered in the past.
-                    </p>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg p-8">
-                    <h2 class="text-xl font-bold text-gray-800 mb-4">Elephants are highly intelligent</h2>
-                    <p class="text-gray-700">
-                        Elephants are among the most intelligent animals on Earth, with a brain that weighs around 5 kg
-                        (11 lbs). They exhibit complex behavior, use tools, and have strong family bonds.
-                    </p>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg p-8">
-                    <h2 class="text-xl font-bold text-gray-800 mb-4">Elephants are matriarchal</h2>
-                    <p class="text-gray-700">
-                        Elephant herds are led by a matriarch, usually the oldest and most experienced female. She
-                        guides the herd and makes decisions about where to find food and water.
-                    </p>
-                </div>
-            </div>
+            <p class="text-gray-300 mt-2 text-2xl">
+                They are highly intelligent and social creatures, living in close-knit family groups led by a matriarch.
+            </p>
+        </div>
+    </div>
 
-            {{-- Bottom Row --}}
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
-                <div class="bg-white rounded-lg shadow-lg p-8">
-                    <h2 class="text-xl font-bold text-gray-800 mb-4">Elephants are excellent swimmers</h2>
-                    <p class="text-gray-700">
-                        Despite their massive size, elephants are skilled swimmers and can cross rivers and even swim in
-                        the ocean for extended periods. They use their trunks as snorkels to breathe while swimming.
-                    </p>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg p-8">
-                    <h2 class="text-xl font-bold text-gray-800 mb-4">Elephants have unique communication methods</h2>
-                    <p class="text-gray-700">
-                        Elephants communicate through a variety of vocalizations, including trumpets, rumbles, and
-                        roars. They also use seismic signals that can travel through the ground and be detected by other
-                        elephants miles away.
-                    </p>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg p-8">
-                    <h2 class="text-xl font-bold text-gray-800 mb-4">Elephants are endangered</h2>
-                    <p class="text-gray-700">
-                        Both African and Asian elephants are threatened by habitat loss, poaching for ivory, and
-                        human-elephant conflicts. Conservation efforts are crucial to protect these majestic animals
-                        from extinction.
-                    </p>
-                </div>
+    <div class="bg-secondary py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="col-span-1">
+                <p class="text-gray-700 leading-relaxed mt-6 text-2xl">
+                    Elephants play a crucial role in maintaining the ecosystems they inhabit, shaping the landscape and
+                    creating habitats for other species.
+                </p>
+                <p class="text-gray-700 leading-relaxed mt-1 text-2xl">
+                    Despite their importance, elephants face numerous threats, including habitat loss, poaching for ivory,
+                    and human-wildlife conflict.
+                </p>
             </div>
-
-            <div class="flex flex-col sm:flex-row justify-center items-center gap-4 mt-10">
-                <img class="h-auto max-w-lg transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0"
-                    src="https://files.worldwildlife.org/wwfcmsprod/images/African_Elephant_Kenya_112367/hero_small/3v49raxlb8_WW187785.jpg"
-                    alt="Elephant image">
-                <img class="h-auto max-w-lg transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0"
-                    src="https://www.wwf.org.uk/sites/default/files/styles/hero_m/public/2018-10/Elephant_WWF_Living_Planet_Report_0.jpg?h=e5aec6c8&itok=kYnJsMWQ"
-                    alt="Elephant image">
-                <img class="h-auto max-w-lg transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0"
-                    src="https://www.treehugger.com/thmb/tKe5Rn214X_AXAE-kRUbiu7pOuo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/front-view-of-a-bull-elephant-in-the-grasslands-of-amboseli-national-park--1219745751-08f3add138514ad091e82e29a11546cc.jpg"
-                    alt="Elephant image">
+            <div class="col-span-1 flex justify-end">
+                <img src="https://i.pinimg.com/originals/07/91/1c/07911c2ba4609d3d5a349af1b32b6cae.jpg"
+                    alt="Elephants" class="h-96 object-cover rounded-lg shadow-lg " />
             </div>
         </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div>
+            <img src="https://uhdwallpapers.org/download/elephant-silhouette_75964/1920x1080/"
+                alt="Elephants" class="h-96 rounded-lg shadow-lg ml-52" />
+        </div>
+        <div>
+            <p class="text-gray-700 mb-4 mt-28 text-2xl">
+                Elephants are under threat due to the illegal ivory trade, which continues to drive poaching and the
+                decline of elephant populations across Africa and Asia.
+            </p>
+            <p class="text-gray-700 text-2xl">
+                Conservation efforts are crucial for protecting elephants and their habitats, ensuring their survival for
+                future generations.
+            </p>
+        </div>
+    </div>
+
+    <div class="bg-primary-200 py-8 mt-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-white mb-4">Key Facts</h2>
+            <ul class="list-disc list-inside text-gray-300 text-2xl">
+                <li>Conservation Status: Vulnerable to Endangered</li>
+                <li>Distribution: Africa and Asia</li>
+                <li>Habitat: Diverse habitats including savannas, forests, and grasslands</li>
+                <li>Diet: Herbivorous, feeding on a variety of vegetation</li>
+                <li>Height: African elephants up to 4 meters, Asian elephants up to 3 meters</li>
+                <li>Weight: African elephants up to 6,000 kg, Asian elephants up to 5,000 kg</li>
+                <li>Gestation: Approximately 22 months</li>
+                <li>Life span: 60-70 years</li>
+            </ul>
+        </div>
+    </div>
+    <div class="bg-secondary pt-10"></div>
+    <div class="flex flex-col sm:flex-row justify-center items-center gap-4 bg-secondary pb-10">
+        <img class="h-auto max-w-lg transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0"
+            src="https://t4.ftcdn.net/jpg/02/28/74/03/360_F_228740321_GOqRH2S8swb7aUgBbV2slahcsNwRQHUW.jpg"
+            alt="image description">
+        <img class="h-auto max-w-lg transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0"
+            src=https://images.musement.com/cover/0161/64/thumb_16063601_cover_header.jpg?w=540"
+            alt="image description">
+        <img class="h-auto max-w-lg transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0"
+            src="https://t4.ftcdn.net/jpg/06/87/25/23/360_F_687252318_nA5K0HLStrP9zyaefmjtOUtd1iy7eaLC.jpg"
+            alt="image description">
     </div>
 </x-app-layout>

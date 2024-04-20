@@ -1,61 +1,77 @@
 <x-app-layout>
-    <div class="bg-secondary min-h-screen p-4">
-        <div class="container mx-auto pt-12 pb-20">
-
-            <h1 class="text-4xl font-bold text-gray-800 text-center mb-8">
-                Discover some facts about ZEBRAS
-            </h1>
-            <p class="text-gray-700 text-lg text-center mb-12">
-                Learn fascinating insights about these unique African equines with striking black and white stripes.
+    <div class="bg-primary-200 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 class="text-3xl font-bold text-secondary mb-4 ">Zebras</h1>
+            <p class="text-gray-300 text-2xl">
+                Zebras are iconic African mammals known for their distinctive black and white stripes, which are unique
+                to each individual.
             </p>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-white rounded-lg shadow-lg p-8">
-                    <h2 class="text-xl font-bold text-gray-800 mb-4">Zebra stripes are unique to each individual</h2>
-                    <p class="text-gray-700">
-                        Just like human fingerprints, no two zebras have the same pattern of stripes. This unique stripe pattern helps zebras recognize one another and is thought to play a role in camouflage.
-                    </p>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg p-8">
-                    <h2 class="text-xl font-bold text-gray-800 mb-4">Zebras are members of the horse family</h2>
-                    <p class="text-gray-700">
-                        Despite their distinct black and white stripes, zebras are closely related to horses and donkeys. They are members of the Equidae family and can interbreed with other equine species.
-                    </p>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg p-8">
-                    <h2 class="text-xl font-bold text-gray-800 mb-4">Stripes help zebras stay cool</h2>
-                    <p class="text-gray-700">
-                        Zebras' black and white stripes create an optical illusion that helps to dissipate heat from their bodies, keeping them cooler in the hot African savanna.
-                    </p>
-                </div>
-            </div>
+            <p class="text-gray-300 mt-2 text-2xl">
+                They inhabit various grassland habitats across Africa, forming social groups called herds.
+            </p>
+        </div>
+    </div>
 
-            {{-- Bottom Row --}}
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
-                <div class="bg-white rounded-lg shadow-lg p-8">
-                    <h2 class="text-xl font-bold text-gray-800 mb-4">Zebras are highly social animals</h2>
-                    <p class="text-gray-700">
-                        Zebras live in close-knit family groups called harems, consisting of a stallion, several mares, and their offsprings. These groups help protect zebras from predators and facilitate communication and bonding.
-                    </p>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg p-8">
-                    <h2 class="text-xl font-bold text-gray-800 mb-4">Zebras are excellent runners</h2>
-                    <p class="text-gray-700">
-                        With their long legs and incredible endurance, zebras can run at speeds of up to 35 mph (56 km/h) for short bursts. This ability helps them escape from predators in the open savannas.
-                    </p>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg p-8">
-                    <h2 class="text-xl font-bold text-gray-800 mb-4">Zebras have excellent eyesight and hearing</h2>
-                    <p class="text-gray-700">
-                        To stay safe from predators, zebras rely on their keen senses of sight and hearing. Their excellent vision helps them detect potential threats from a distance, while their large ears allow them to pick up even the faintest sounds.
-                    </p>
-                </div>
+    <div class="bg-secondary py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="col-span-1">
+                <p class="text-gray-700 leading-relaxed mt-28 text-xl">
+                    Zebras are herbivores, primarily feeding on grass, leaves, and stems.
+                </p>
+                <p class="text-gray-700 leading-relaxed mt-5 text-xl">
+                    They have excellent eyesight and hearing, which helps them detect predators such as lions and
+                    hyenas.
+                </p>
             </div>
-
-            <div class="flex flex-col sm:flex-row justify-center items-center gap-4 mt-10">
-                <img class="h-auto max-w-lg transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" src="https://www.treehugger.com/thmb/qFhPReYPPaVgTtHBOthYeMJVeZ0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1043597638-49acd69677d7442588c1d8930d298a59.jpg" alt="Zebra image">
-                <img class="h-auto max-w-lg transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" src="https://animals.sandiegozoo.org/sites/default/files/2016-08/hero_zebra_animals.jpg" alt="Zebra image">
-                <img class="h-auto max-w-lg transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" src="https://nationalzoo.si.edu/sites/default/files/styles/max_2600x2600/public/newsroom/20220421-tarabuk-zebra-yipes-014.jpg?itok=EiXouHqR" alt="Zebra image">
+            <div class="col-span-1 flex justify-end">
+                <img src="https://images6.alphacoders.com/420/420990.jpg" alt="Zebras"
+                    class="h-96 object-cover rounded-lg shadow-lg mr-8" />
             </div>
         </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div>
+            <img src="https://s1.1zoom.me/b5452/47/Zebras_Two_Grass_563134_1920x1080.jpg" alt="Zebras" class="h-96 rounded-lg shadow-lg ml-48 " />
+        </div>
+        <div>
+            <p class="text-gray-700 mb-4 mt-28 text-xl">
+                Zebras play a vital role in maintaining the balance of their ecosystems by grazing on vegetation and
+                providing food for predators.
+            </p>
+            <p class="text-gray-700 text-xl">
+                Habitat loss, poaching, and competition with livestock are among the main threats to zebra populations.
+            </p>
+        </div>
+    </div>
+
+    <div class="bg-primary-200 py-8 mt-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-white mb-4">Key Facts</h2>
+            <ul class="list-disc list-inside text-gray-300 text-xl">
+                <li>Conservation Status: Varies by species (some are listed as Least Concern, others as Near Threatened)
+                </li>
+                <li>Distribution: Africa, primarily in savannas and grasslands</li>
+                <li>Habitat: Grasslands, savannas, woodlands</li>
+                <li>Diet: Herbivorous, mainly feeding on grass</li>
+                <li>Size: Varies by species, typically 1.2 to 1.4 meters at the shoulder</li>
+                <li>Weight: Varies by species, typically 200 to 450 kilograms</li>
+                <li>Gestation: Approximately 12 months</li>
+                <li>Group Structure: Form social herds led by a dominant male</li>
+            </ul>
+        </div>
+    </div>
+    <div class="bg-secondary pt-10"></div>
+    <div class="flex flex-col sm:flex-row justify-center items-center gap-4 bg-secondary pb-10">
+        <img class="h-auto max-w-lg transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0"
+            src="https://t4.ftcdn.net/jpg/02/28/74/03/360_F_228740321_GOqRH2S8swb7aUgBbV2slahcsNwRQHUW.jpg"
+            alt="image description">
+        <img class="h-auto max-w-lg transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0"
+            src=https://images.musement.com/cover/0161/64/thumb_16063601_cover_header.jpg?w=540"
+            alt="image description">
+        <img class="h-auto max-w-lg transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0"
+            src="https://t4.ftcdn.net/jpg/06/87/25/23/360_F_687252318_nA5K0HLStrP9zyaefmjtOUtd1iy7eaLC.jpg"
+            alt="image description">
+    </div>
     </div>
 </x-app-layout>
