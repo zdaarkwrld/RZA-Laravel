@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Bookings extends Model
+class Service extends Model
 {
     use HasFactory;
 
@@ -14,7 +14,7 @@ class Bookings extends Model
      *
      * @var string
      */
-    protected $table = 'booking';
+    protected $table = 'service';
 
     /**
      * The attributes that are mass assignable.
@@ -22,17 +22,8 @@ class Bookings extends Model
      * @var array
      */
     protected $fillable = [
-        'user_id',
-        'service_id',
-        'hotel_id',
         'name',
-        'email',
-        'phone',
-        'date',
-        'time',
-        'service',
-        'quantity',
-        'total_cost',
+        'price',
         'created_at',
         'updated_at',
     ];
@@ -43,10 +34,7 @@ class Bookings extends Model
      * @var array
      */
     protected $casts = [
-        'date' => 'integer',
-        'quantity' => 'integer',
-        'total_cost' => 'integer',
-        'loyalty_points_earned' => 'integer',
+        'price' => 'integer',
         'created_at' => 'integer',
         'updated_at' => 'integer',
     ];

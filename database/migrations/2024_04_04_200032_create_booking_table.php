@@ -11,21 +11,23 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('bookings', function (Blueprint $table) {
+        Schema::create('booking', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id');
+            $table->string('name');
+            $table->string('email');
+            $table->string('phone_number');
+            $table->string('date');
+            $table->string('time');
             $table->foreignId('service_id');
-            $table->foreignId('hotel_id');
-            $table->integer('date');
-            $table->integer('quantity');
+            $table->string('hotel');                                 
             $table->integer('total_cost');
-            $table->integer('loyalty_points_earned');
-            $table->string('status');
+            $table->string('message');
             $table->timestamps();
         });
     }
 
-    
+
     /**
      * Reverse the migrations.
      */
