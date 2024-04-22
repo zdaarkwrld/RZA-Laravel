@@ -216,7 +216,7 @@
     <div class="flex flex-col items-center justify-center bg-primary py-16 ">
         <div class="relative">
             <img src="https://www.calgaryzoo.com/wp-content/uploads/2023/09/Daughter.YYC_.Zoo_.P.Bears_.01090.1.FF16-1024x768.jpg"
-                alt="Red Panda" class="rounded-full w-64 h-64">
+                alt="Panda" class="rounded-full w-64 h-64">
         </div>
         <h1 class="text-4xl font-bold text-secondary mt-8">Riget Zoo Adventures</h1>
         <p class="text-lg text-white mt-4 max-w-2xl text-center">
