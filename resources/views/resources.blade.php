@@ -100,7 +100,7 @@
 <h3 class="font-therif text-center font-bold text-3xl text-[#652b53] mb-10">DISCOVER OUR ZOO THROUGH THIS MAP</h3>
 <div class="flex justify-center items-center">
     <div class="max-w-5xl w-full p-2 m-2 object-cover object-left h-full hover:scale-110 transition-transform ease-in-out duration-150 overflow-hidden z-10 mb-11 bg-primary">
-          <img src="https://i.pinimg.com/736x/9b/26/f1/9b26f1142ecc97a2e82d6aeb736bf288.jpg" alt="Battersea Park Zoo" class="w-full h-auto object-contain mb-2" />
+          <img src="https://i.pinimg.com/736x/9b/26/f1/9b26f1142ecc97a2e82d6aeb736bf288.jpg" alt="Zoo" class="w-full h-auto object-contain mb-2" />
         </a>
       </div>
 </div>
