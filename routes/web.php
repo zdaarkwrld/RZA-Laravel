@@ -20,15 +20,9 @@ Route::get('/home', function () {
 Route::get('/resources', function () {
     return view('resources');
 })->name('resources');
-
-
-
 Route::get('/faq-page', function () {
     return view('faq-page');
 })->name('faq-page');
-
-
-
 Route::get('/feedback', function () {
     return view('feedback');
 })->name('feedback');

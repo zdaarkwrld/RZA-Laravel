@@ -41,12 +41,14 @@
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div>
-            <img src="https://images.musement.com/cover/0161/64/thumb_16063601_cover_header.jpg?w=540"
-                alt="Sumatran Tiger" class="h-96 rounded-lg shadow-lg ml-80" />
+        <div class="md:flex md:flex-col md:justify-center">
+            <div class="h-96 w-full md:w-auto">
+                <img src="https://images.musement.com/cover/0161/64/thumb_16063601_cover_header.jpg?w=540"
+                    alt="Sumatran Tiger" class="h-full w-full rounded-lg shadow-lg object-cover" />
+            </div>
         </div>
         <div>
-            <p class="text-gray-700 mb-4 mt-28 text-xl">
+            <p class="text-gray-700 mb-4 text-xl">
                 According to a survey from "TRAFFIC", the global wildlife trade monitoring network, poaching for <br> skins
                 is responsible for over 70% of all reported Sumatran tiger deaths, amounting to at least <br> 40 animals per
                 year.
@@ -59,6 +61,9 @@
             </p>
         </div>
     </div>
+
+
+
 
     <div class="bg-primary-200 py-8 mt-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

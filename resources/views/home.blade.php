@@ -224,7 +224,7 @@
             animals from all over the world, including endangered species.
         </p>
         <button class="bg-secondary-200 hover:bg-secondary text-primary font-bold py-2 px-4 rounded mt-8">
-            SEE ANIMALS
+            OUR FRIENDLY ANIMALS
         </button>
     </div>
 
