@@ -1,10 +1,12 @@
+
 <x-app-layout>
 
+
     <div
-        class="bg-[url('/public/images/giraffe.jpg')] bg-center bg-cover overflow-hidden h-[300px] sm:h-[400px] md:h-[500px] relative">
+        class="bg-[url('/public/images/giraffe.jpg')] bg-center bg-cover overflow-hidden h-[400px] sm:h-[400px] md:h-[800px] relative">
         <div
             class="absolute top-5 left-3 p-4 transition-all duration-1000 ease-in-out transform translate-y-[-100%] opacity-0 animate-fade-in">
-            <h2 class="text-white text-5xl font-bold font-therifleman">Welcome to <br>Riget Zoo Adventures</h2>
+            <h2 class="text-white text-5xl font-bold font-therifleman bg-primary rounded-md px-10 py-10 py">Welcome to <br>Riget Zoo Adventures</h2>
         </div>
     </div>
 
@@ -32,8 +34,10 @@
     <div class="bg-secondary text-gray-800 py-12 md:py-12">
         <div class="container mx-auto px-4">
             <h1 class=" text-center font-bold text-4xl md:text-6xl lg:text-7xl pb-6 font-therifleman  text-primary">
-                UPDATED EVENTS</h1>
+                Create Wild Memories</h1>
 
+                <h1 class=" font-bold  text-primary text-5xl left-52 mt-20  font-therifleman">What's Happening?</h1>
+                <h2 class=" font-bold  text-primary text-3xl  font-therifleman left-52 mt-5">Discover Our Updates Events</h1>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 md:mt-12">
                 <div class="bg-white shadow-lg rounded-lg overflow-hidden">
                     <img src="https://www.wmsp.co.uk/fileadmin/_processed_/5/7/csm_photo-minibus2-600px_3f8bd75a8f.jpg"
@@ -329,4 +333,5 @@
             </div>
         </div>
     </section>
+
 </x-app-layout>

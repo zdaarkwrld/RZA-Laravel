@@ -17,7 +17,7 @@
                         </svg>
                     </button>
                     <div id="answer1" style="display:none" class="px-4 pb-5 sm:px-6 sm:pb-6">
-                        <p>Getting started is easy! Sign up for an account, and you'll have access to our platform's features. Then press Book Now placed on the top right side of the screen and fill the boxes with your details. Once finished you will be asked to pay for the ticket. After payment , you will receive your ticket.</p>
+                        <p>To book tickets and/or hotel , you can just access the booking system from the navigation bar and from there you can just fill out the form </p>
                     </div>
                 </div>
                 <div

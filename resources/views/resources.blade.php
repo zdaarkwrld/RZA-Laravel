@@ -4,10 +4,30 @@
         class="bg-[url(/public/images/lion.jpg)] bg-center bg-cover overflow-hidden h-[600px]">
     </div>
 
-    {{-- Page Header --}}
-    <h1 class=" text-center font-bold mt-12 text-7xl text-[#652b53]">RESOURCES</h1>
+    <div class="absolute top-20 right-10 p-4 transition-all duration-1000 ease-in-out transform translate-x-[100%] opacity-0 animate-fade-in">
+        <h2 class="text-white text-7xl font-bold font-therifleman">Resources</h2>
+      </div>
 
-    <h3 class=" text-center font-bold mt-6 text-3xl text-[#652b53]">DISCOVER INTERESTING FACTS ABOUT OUR ANIMAL FRIENDS</h3>
+      <style>
+        .animate-fade-in {
+          animation: fade-in 1.5s ease-in-out forwards;
+        }
+
+        @keyframes fade-in {
+          0% {
+            transform: translateX(100%);
+            opacity: 0;
+          }
+          100% {
+            transform: translateX(0);
+            opacity: 1;
+          }
+        }
+      </style>
+    {{-- Page Header --}}
+    <h1 class=" text-center font-bold mt-12 text-7xl text-[#652b53]">Education </h1>
+
+    <h3 class=" text-center font-bold mt-6 text-3xl text-[#652b53]">Education is Key - You wont leave Riget Zoo Adventures without learning something new  </h3>
 
     <!-- Top 3 sections -->
     <div class="flex flex-col md:flex-row gap-10 mx-auto md:px-10 w-96 md:w-full py-10 justify-center">
