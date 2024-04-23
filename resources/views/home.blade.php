@@ -120,19 +120,16 @@
     </div>
 
 
-    <section class="relative z-40 overflow-hidden bg-primary py-12 md:py-16 lg:py-24 px-4 md:px-8 ">
+    <section class="relative z-40 overflow-hidden bg-primary py-12 md:py-16 lg:py-24 px-4 md:px-8">
         <div class="container mx-auto">
             <div class="-mx-4 flex flex-wrap items-center">
                 <div class="w-full px-4 lg:w-1/2">
                     <div class="text-center lg:text-left">
-                        <div class="mb-10 lg:mb-0">
-                            <h1
-                                class="mt-0 mb-3 text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-secondary">
-                                You come here often? Perfect, Contact Us to get a loyalty offer to reduce your ticket
-                                prices
+                        <div class="mb-10 lg:mb-0 opacity-0 animate-fade-in"> <!-- Apply class here -->
+                            <h1 class="mt-0 mb-3 text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-secondary">
+                                You come here often? Perfect, Contact Us to get a loyalty offer to reduce your ticket prices
                             </h1>
-                            <p class="w-full text-base md:text-lg lg:text-xl font-medium leading-relaxed text-white">
-                            </p>
+                            <p class="w-full text-base md:text-lg lg:text-xl font-medium leading-relaxed text-white"></p>
                         </div>
                     </div>
                 </div>
@@ -212,6 +209,25 @@
             </svg>
         </div>
     </section>
+    <style>
+        @keyframes slide-in {
+            0% {
+                opacity: 0;
+                transform: translateX(-50px); /* Start from left */
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0); /* End at original position */
+            }
+        }
+        .animate-slide-in {
+            animation: slide-in 0.5s ease-out forwards;
+        }
+    </style>
+
+
+
+
     <div class="bg-secondary py-10">
 
     </div>
