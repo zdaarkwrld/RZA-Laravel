@@ -1,12 +1,12 @@
-
 <x-app-layout>
 
 
-    <div
-        class="bg-[url('/public/images/giraffe.jpg')] bg-center bg-cover overflow-hidden h-[400px] sm:h-[400px] md:h-[800px] relative">
+    <div <div
+        class="bg-[url('/public/images/giraffe.jpg')] rounded-bl-[40%_100px] rounded-br-[60%_100px] bg-center  bg-cover overflow-hidden h-[300px] sm:h-[400px] md:h-[600px] relative  ">
         <div
             class="absolute top-5 left-3 p-4 transition-all duration-1000 ease-in-out transform translate-y-[-100%] opacity-0 animate-fade-in">
-            <h2 class="text-white text-5xl font-bold font-therifleman bg-primary rounded-md px-10 py-10 py">Welcome to <br>Riget Zoo Adventures</h2>
+            <h2 class="text-white text-5xl font-bold font-therifleman bg-primary rounded-md px-5 py-5 ">Welcome to
+                <br>Riget Zoo Adventures</h2>
         </div>
     </div>
 
@@ -30,54 +30,51 @@
     </style>
 
 
-
-    <div class="bg-secondary text-gray-800 py-12 md:py-12">
+    <div class="bg-secondary text-gray-800 py-12 md:py-12 opacity-0 transform translate-x-[-50%] transition-all duration-1000 ease-in-out animate-fade-in-left">
         <div class="container mx-auto px-4">
-            <h1 class=" text-center font-bold text-4xl md:text-6xl lg:text-7xl pb-6 font-therifleman  text-primary">
-                Create Wild Memories</h1>
-
-                <h1 class=" font-bold  text-primary text-5xl left-52 mt-20  font-therifleman">What's Happening?</h1>
-                <h2 class=" font-bold  text-primary text-3xl  font-therifleman left-52 mt-5">Discover Our Updates Events</h1>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 md:mt-12">
-                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-                    <img src="https://www.wmsp.co.uk/fileadmin/_processed_/5/7/csm_photo-minibus2-600px_3f8bd75a8f.jpg"
-                        alt="Headless UI"
-                        class="w-full h-64 md:h-80 lg:h-96 object-cover h-full hover:scale-110 transition-transform ease-in-out duration-150">
-                    <div class="p-4 md:p-6 lg:p-8">
-                        <h3 class="text-xl md:text-2xl lg:text-3xl font-semibold text-primary mb-2">Book A Guided Tour
-                        </h3>
-                        <p class="text-black mb-4 two-lines md:mb-6 lg:mb-8"> Completely unstyled, fully accessible UI
-                            components, designed to integrate beautifully with Tailwind CSS. </p>
-                    </div>
-                </div>
-                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-                    <img src="https://www.wmsp.co.uk/fileadmin/user_upload/west_midland_safari_park/attractions/elephant-04.jpg"
-                        alt="Heroicons"
-                        class="w-full h-64 md:h-80 lg:h-96 object-cover h-full hover:scale-110 transition-transform ease-in-out duration-150">
-                    <div class="p-4 md:p-6 lg:p-8">
-                        <h3 class="text-xl md:text-2xl lg:text-3xl font-semibold text-primary mb-2">Get Ready To Visit
-                            Our Animal Friends</h3>
-                        <p class="text-black mb-4 two-lines md:mb-6 lg:mb-8">A set of 450+ free MIT-licensed SVG icons.
-                            Available as basic SVG icons and via first-party React and Vue libraries.</p>
-                    </div>
-                </div>
-                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-                    <img src="{{ asset('images/loyalty-program-img-3.jpeg') }}" alt="Hero Patterns"
-                        class="w-full h-64 md:h-80 lg:h-96 object-cover h-full hover:scale-110 transition-transform ease-in-out duration-150">
-                    <div class="p-4 md:p-6 lg:p-8">
-                        <h3 class="text-xl md:text-2xl lg:text-3xl font-semibold text-primary mb-2">Discover Our Loyalty
-                            Offer</h3>
-                        <p class="text-black mb-4 two-lines md:mb-6 lg:mb-8">A collection of over 100 free MIT-licensed
-                            high-quality SVG patterns for you to use in your web projects.</p>
-                    </div>
-                </div>
+          <h1 class="text-center font-bold text-2xl md:text-4xl lg:text-5xl pb-3 font-therifleman text-primary">Discover Our Updated Events</h1>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 md:mt-12">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+              <img src="https://www.wmsp.co.uk/fileadmin/_processed_/5/7/csm_photo-minibus2-600px_3f8bd75a8f.jpg" alt="Headless UI" class="w-full h-64 md:h-80 lg:h-96 object-cover h-full hover:scale-110 transition-transform ease-in-out duration-150">
+              <div class="p-4 md:p-6 lg:p-8">
+                <h3 class="text-xl md:text-2xl lg:text-3xl font-semibold text-primary mb-2">Book A Guided Tour</h3>
+                <p class="text-black mb-4 two-lines md:mb-6 lg:mb-8">Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.</p>
+              </div>
             </div>
-
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+              <img src="https://www.wmsp.co.uk/fileadmin/user_upload/west_midland_safari_park/attractions/elephant-04.jpg" alt="Heroicons" class="w-full h-64 md:h-80 lg:h-96 object-cover h-full hover:scale-110 transition-transform ease-in-out duration-150">
+              <div class="p-4 md:p-6 lg:p-8">
+                <h3 class="text-xl md:text-2xl lg:text-3xl font-semibold text-primary mb-2">Get Ready To Visit Our Animal Friends</h3>
+                <p class="text-black mb-4 two-lines md:mb-6 lg:mb-8">A set of 450+ free MIT-licensed SVG icons. Available as basic SVG icons and via first-party React and Vue libraries.</p>
+              </div>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+              <img src="{{ asset('images/loyalty-program-img-3.jpeg') }}" alt="Hero Patterns" class="w-full h-64 md:h-80 lg:h-96 object-cover h-full hover:scale-110 transition-transform ease-in-out duration-150">
+              <div class="p-4 md:p-6 lg:p-8">
+                <h3 class="text-xl md:text-2xl lg:text-3xl font-semibold text-primary mb-2">Discover Our Loyalty Offer</h3>
+                <p class="text-black mb-4 two-lines md:mb-6 lg:mb-8">A collection of over 100 free MIT-licensed high-quality SVG patterns for you to use in your web projects.</p>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-    </div>
-    </div>
+      </div>
 
+      <style>
+        .animate-fade-in-left {
+          animation: fade-in-left 1s ease-in-out forwards;
+        }
+
+        @keyframes fade-in-left {
+          0% {
+            opacity: 0;
+            transform: translateX(-50%);
+          }
+          100% {
+            opacity: 1;
+            transform: translateX(0);
+          }
+        }
+      </style>
 
 
 
@@ -118,9 +115,9 @@
 
     </div>
 
-<div class="pb-20 bg-secondary">
+    <div class="pb-20 bg-secondary">
 
-</div>
+    </div>
 
 
     <section class="relative z-40 overflow-hidden bg-primary py-12 md:py-16 lg:py-24 px-4 md:px-8 ">
@@ -129,7 +126,8 @@
                 <div class="w-full px-4 lg:w-1/2">
                     <div class="text-center lg:text-left">
                         <div class="mb-10 lg:mb-0">
-                            <h1 class="mt-0 mb-3 text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-secondary">
+                            <h1
+                                class="mt-0 mb-3 text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-secondary">
                                 You come here often? Perfect, Contact Us to get a loyalty offer to reduce your ticket
                                 prices
                             </h1>
@@ -167,7 +165,8 @@
             </svg>
         </div>
         <div class="absolute top-4 left-4 -z-10  ">
-            <svg width="43" height="56" viewBox="0 0 43 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="43" height="56" viewBox="0 0 43 56" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
                 <g opacity="0.5">
                     <circle cx="40.9984" cy="1.49626" r="1.49626" transform="rotate(90 40.9984 1.49626)"
                         fill="white"></circle>
