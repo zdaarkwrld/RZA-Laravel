@@ -19,8 +19,7 @@
                 </h3>
                 <!-- Description -->
                 <p class="mt-4 leading-7 text-gray-200">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s.
+                    Have any doubt? No worries, Just fill out this form and we will contact you back and answer your questions!
                 </p>
                 <!-- Address -->
                 <div class="flex items-center mt-5">
@@ -31,7 +30,7 @@
                         <path d="M488.554,476l-99-280.2c-1-4.2-5.2-7.3-9.4-7.3h-45.6c12.9-31.1 19.6-54.9 19.6-70.8 0-64.6-50-117.7-112.5-117.7-61.5,0-112.5,52.1-112.5,117.7 0,17.6 8.2,43.1 19.9,70.8h-39.7c-4.2,0-8.3,3.1-9.4,7.3l-99,280.2c-3.2,10.3 6.3,13.5 9.4,13.5h468.8c4.2,0.5 12.5-4.2 9.4-13.5zm-246.9-455.3c51,1.06581e-14 91.7,43.7 91.7,96.9 0,56.5-79.2,182.3-91.7,203.1-31.3-53.1-91.7-161.5-91.7-203.1 0-53.1 40.6-96.9 91.7-96.9zm-216.7,448l91.7-259.4h41.7c29.9,64.1 83.3,151 83.3,151s81.4-145.7 83.8-151h47.4l91.7,259.4h-439.6z" />
                     </svg>
                     <!-- Address text -->
-                    <span class="text-sm">House #14, Street #12, Darulaman Road, Kabul, Afghanistan.</span>
+                    <span class="text-sm">OX251QG, Bicester, England.</span>
                 </div>
                 <!-- Phone number -->
                 <div class="flex items-center mt-5">
@@ -125,7 +124,7 @@
     <!-- Leave feedback button -->
     <div class="fixed bottom-4 right-4">
         <a href="{{ route('feedback') }}"
-            class="bg-primary hover:bg-primary-200 text-white font-bold py-2 px-6 rounded">
+            class="bg-secondary hover:bg-secondary-200 text-primary font-bold py-2 px-6 rounded">
             Leave a Feedback
         </a>
     </div>

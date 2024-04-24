@@ -4,7 +4,7 @@
         <!-- Header -->
         <div class="bg-primary px-10 py-10 text-center text-white rounded-xl">
             <p class=" text-2xl font-semibold tracking-wider">Submit your request</p>
-            <p class="text-center text-blue-100">Please keep it short and succinct</p>
+            <p class="text-center text-blue-100">Please keep it short and simple</p>
         </div>
 
         <!-- Form fields -->

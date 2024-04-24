@@ -1,4 +1,5 @@
 <x-app-layout>
+    <!-- Header section with information about Pandas -->
     <div class="bg-primary-200 py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 class="text-3xl font-bold text-secondary mb-4">Pandas</h1>
@@ -11,8 +12,10 @@
         </div>
     </div>
 
+    <!-- Content section with images and details about Pandas -->
     <div class="bg-secondary py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Image and details -->
             <div class="col-span-1 flex justify-end">
                 <img src="https://d1jyxxz9imt9yb.cloudfront.net/animal/285/meta_image/regular/panda_1.jpg"
                     alt="Panda" class="h-96 object-cover rounded-lg shadow-lg ml-8" />
@@ -28,8 +31,10 @@
         </div>
     </div>
 
+    <!-- Additional content section -->
     <div class="bg-secondary py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Image and details -->
             <div class="col-span-1 flex justify-end">
                 <img src="https://nationalzoo.si.edu/sites/default/files/animals/giantpanda-001.jpg"
                     alt="Panda" class="h-96 object-cover rounded-lg shadow-lg ml-8" />
@@ -45,6 +50,7 @@
         </div>
     </div>
 
+    <!-- Key facts section -->
     <div class="bg-primary-200 py-8 mt-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-4xl font-bold text-white mb-4">Key Facts</h2>
@@ -59,6 +65,7 @@
         </div>
     </div>
 
+    <!-- image section -->
     <div class="bg-secondary pt-10"></div>
     <div class="flex flex-col sm:flex-row justify-center items-center gap-4 bg-secondary pb-10">
         <img class="h-auto max-w-lg transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0"

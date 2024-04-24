@@ -1,4 +1,5 @@
 <x-app-layout>
+    <!-- First section: Introduction to Giraffes -->
     <div class="bg-primary-200 py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 class="text-3xl font-bold text-secondary mb-4">Giraffes</h1>
@@ -14,6 +15,7 @@
         </div>
     </div>
 
+    <!-- Second section: Description and Image of Giraffes -->
     <div class="bg-secondary py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-8">
             <div class="col-span-1 flex justify-end">
@@ -35,6 +37,7 @@
         </div>
     </div>
 
+    <!-- Third section: Description and Image of Giraffes -->
     <div class="bg-secondary py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-8">
             <div class="col-span-1 flex justify-end">
@@ -55,6 +58,7 @@
         </div>
     </div>
 
+    <!-- Fourth section: Key Facts about Giraffes -->
     <div class="bg-primary-200 py-8 mt-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-4xl font-bold text-white mb-4">Key Facts</h2>
@@ -70,6 +74,7 @@
         </div>
     </div>
 
+    <!-- Fifth section: Gallery of Giraffe Images -->
     <div class="bg-secondary pt-10"></div>
     <div class="flex flex-col sm:flex-row justify-center items-center gap-4 bg-secondary pb-10">
         <img class="h-auto max-w-lg transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0"

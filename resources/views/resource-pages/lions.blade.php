@@ -1,4 +1,5 @@
 <x-app-layout>
+    <!-- Header section with information about Sumatran Tigers -->
     <div class="bg-primary-200 py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 class="text-3xl font-bold text-secondary mb-4">Sumatran Tiger</h1>
@@ -14,8 +15,10 @@
         </div>
     </div>
 
+    <!-- Content section with images and details about Sumatran Tigers -->
     <div class="bg-secondary py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Image and details -->
             <div class="col-span-1 md:order-2">
                 <p class="text-gray-700 leading-relaxed mt-6 text-xl">
                     An apex predator, tigers are carnivorous and their diet consists of ungulates such as deer, wild
@@ -29,6 +32,7 @@
                     expansion, movement, and hunting of tiger prey species.
                 </p>
             </div>
+            <!-- Image -->
             <div class="col-span-1 md:order-1 flex justify-center md:justify-end">
                 <img src="https://t4.ftcdn.net/jpg/02/28/74/03/360_F_228740321_GOqRH2S8swb7aUgBbV2slahcsNwRQHUW.jpg"
                     alt="Sumatran Tiger" class="h-auto md:h-96 object-cover rounded-lg shadow-lg md:ml-8 md:mr-0" />
@@ -37,11 +41,14 @@
         </div>
     </div>
 
+    <!-- Additional content section -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Image and details -->
         <div class="col-span-1 md:order-2 flex justify-center md:justify-start"> <!-- Switched position -->
             <img src="https://i.natgeofe.com/k/1d33938b-3d02-4773-91e3-70b113c3b8c7/lion-male-roar_3x2.jpg?wp=1&w=1084.125&h=721.875"
                 alt="Sumatran Tiger" class="h-auto md:h-96 object-cover rounded-lg shadow-lg md:mr-8 md:ml-0" /> <!-- Updated class here -->
         </div>
+        <!-- Details -->
         <div class="col-span-1 md:order-1"> <!-- Switched position -->
             <p class="text-gray-700 leading-relaxed mt-6 text-xl">
                 According to a survey from "TRAFFIC", the global wildlife trade monitoring network, poaching for
@@ -62,6 +69,7 @@
         </div>
     </div>
 
+    <!-- Key facts section -->
     <div class="bg-primary-200 py-8 mt-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-4xl font-bold text-white mb-4">Key Facts</h2>
@@ -79,6 +87,7 @@
         </div>
     </div>
 
+    <!-- image section -->
     <div class="bg-secondary pt-10"></div>
     <div class="flex flex-col sm:flex-row justify-center items-center gap-4 bg-secondary pb-10">
         <img class="h-auto max-w-lg transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0"
