@@ -81,6 +81,20 @@
                     </div>
                 </div>
             </div>
+            <!-- FAQ item 6 -->
+            <div class="transition-all duration-200 bg-white border border-gray-200 shadow-lg cursor-pointer hover:bg-gray-50">
+                <button type="button" id="question5" data-state="closed" class="flex items-center justify-between w-full px-4 py-5 sm:p-6">
+                    <span class="flex text-lg font-semibold text-black">How to resize text and pages?</span>
+                    <svg id="arrow5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                        class="w-6 h-6 text-gray-400">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div id="answer5" style="display:none" class="px-4 pb-5 sm:px-6 sm:pb-6">
+                    <p>To resize every pages, you can hold ctrl and move the scroll wheel up or down depending if you want to zoom in or out. To zoom in or out, on mobile ,you can go to your browser settings and go to accessibility and turn on Show zoom </p>
+                </div>
+            </div>
+        </div>
             <!-- Contact support link -->
             <p class="text-center text-gray-600 textbase mt-9">
                 Still have questions?
