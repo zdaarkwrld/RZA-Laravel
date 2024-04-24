@@ -16,6 +16,8 @@ Route::get('/home', function () {
     return view('home');
 })->name('home');
 
+
+
 /* resources category routes */
 Route::get('/resources', function () {
     return view('resources');
@@ -48,7 +50,7 @@ Route::get('/resources/zebra', function () {
     return view('resource-pages/zebra');
 })->name('zebra');
 
-
+Route::post('/contact-us', 'ContactUsController@sendMessage')->name('contact-us');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -63,6 +65,12 @@ Route::middleware('auth')->group(function () {
     Route::get('/booking', function () {
         return view('booking');
     })->name('booking');
+    Route::get('/bookings', [BookingController::class, 'getBookings'])->name('bookings');
 });
+
+
+
+
+
 
 require __DIR__.'/auth.php';

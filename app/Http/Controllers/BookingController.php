@@ -64,5 +64,11 @@ class BookingController extends Controller
         return redirect()->back()->with('success', 'Booking was successfull');
     }
 
+    public function getBookings(Request $request)
+    {
+        $user_id = Auth::id();
+        $bookings = Booking::where('user_id', $user_id)->get();
+        return view('bookings', ['bookings' => $bookings]);
+    }
 }
 

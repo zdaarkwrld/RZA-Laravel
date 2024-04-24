@@ -65,6 +65,9 @@
                             <x-dropdown-link :href="route('profile.edit')">
                                 {{ __('Profile') }}
                             </x-dropdown-link>
+                            <x-dropdown-link :href="route('bookings')">
+                                My bookings
+                            </x-dropdown-link>
 
                             <!-- Authentication -->
                             <form method="POST" action="{{ route('logout') }}">
@@ -135,6 +138,9 @@
                     @auth
                         <x-responsive-nav-link :href="route('profile.edit')">
                             {{ __('Profile') }}
+                        </x-responsive-nav-link>
+                        <x-responsive-nav-link :href="route('bookings')">
+                            My bookings
                         </x-responsive-nav-link>
 
                         <!-- Authentication -->
