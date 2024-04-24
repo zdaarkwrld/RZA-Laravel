@@ -48,8 +48,7 @@
                     <div class="p-4 md:p-6 lg:p-8">
                         <h3 class="text-xl md:text-2xl lg:text-3xl font-semibold text-primary mb-2">Book A Guided Tour
                         </h3>
-                        <p class="text-black mb-4 two-lines md:mb-6 lg:mb-8">Completely unstyled, fully accessible UI
-                            components, designed to integrate beautifully with Tailwind CSS.</p>
+                        <p class="text-black mb-4 two-lines md:mb-6 lg:mb-8">Book tickets to visit our animal friends .</p>
                     </div>
                 </div>
                 <!-- Event card 2 -->
@@ -60,8 +59,7 @@
                     <div class="p-4 md:p-6 lg:p-8">
                         <h3 class="text-xl md:text-2xl lg:text-3xl font-semibold text-primary mb-2">Get Ready To Visit
                             Our Animal Friends</h3>
-                        <p class="text-black mb-4 two-lines md:mb-6 lg:mb-8">A set of 450+ free MIT-licensed SVG icons.
-                            Available as basic SVG icons and via first-party React and Vue libraries.</p>
+                        <p class="text-black mb-4 two-lines md:mb-6 lg:mb-8">Explore our zoo and learn more about animals.</p>
                     </div>
                 </div>
                 <!-- Event card 3 -->
@@ -71,8 +69,7 @@
                     <div class="p-4 md:p-6 lg:p-8">
                         <h3 class="text-xl md:text-2xl lg:text-3xl font-semibold text-primary mb-2">Discover Our Loyalty
                             Offer</h3>
-                        <p class="text-black mb-4 two-lines md:mb-6 lg:mb-8">A collection of over 100 free MIT-licensed
-                            high-quality SVG patterns for you to use in your web projects.</p>
+                        <p class="text-black mb-4 two-lines md:mb-6 lg:mb-8">Contact Us through our website if you want to know more about our loyalty program.</p>
                     </div>
                 </div>
             </div>
@@ -154,7 +151,7 @@
                         <div class="mb-10 lg:mb-0 opacity-0 animate-fade-in"> <!-- Apply class here -->
                             <h1
                                 class="mt-0 mb-3 text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-secondary">
-                                You come here often? Perfect, Contact Us to get a loyalty offer to reduce your ticket
+                                You come here often? Fantastic, Contact Us to get a loyalty offer to reduce your ticket
                                 prices
                             </h1>
                             <p class="w-full text-base md:text-lg lg:text-xl font-medium leading-relaxed text-white">
