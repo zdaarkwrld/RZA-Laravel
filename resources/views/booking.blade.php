@@ -178,7 +178,7 @@
                         <span class="text-4xl font-bold text-slate-900 tracking-tighter">$70.99/night</span>
                     </p>
                 </div>
-              
+
                 <div class="pt-6 pb-8 px-6 bg-white"></div>
             </div>
         </div>
